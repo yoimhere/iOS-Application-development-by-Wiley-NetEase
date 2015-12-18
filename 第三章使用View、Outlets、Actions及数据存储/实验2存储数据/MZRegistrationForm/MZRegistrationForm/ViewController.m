@@ -35,7 +35,7 @@
             char *errMsg;
             
     // Adding database if not present
-            const char *sql_stmt ="CREATE TABLE IF NOT EXISTS MZRegistrationForm (EnterName text, EnterEmail text, EnterPhone text, EnterCompany text, EnterId text)";
+            const char *sql_stmt ="CREATE TABLE IF NOT EXISTS MZRegistration (Nametext, Emailtext, Phonetext, Companytext, IDtext)";
             if (sqlite3_exec(_contactDB, sql_stmt, NULL, NULL, &errMsg) != SQLITE_OK)
             {
                 NSLog(@"Failed to create table");
@@ -64,7 +64,7 @@
     const char *dbpath = [_databasePath UTF8String];
     if (sqlite3_open(dbpath, &_contactDB) == SQLITE_OK)
     {
-        NSString *insertSQL = [NSString stringWithFormat:@"INSERT INTO MZRegistrationFrom (Name text, Email text, Phone text, Company text, ID text) VALUES (\"%@\", \"%@\", \"%@\", \"%@\",\"%@\" )",_EnterName.text, _EnterEmail.text,_EnterPhone.text,_EnterCompany.text, _EnterId.text];
+        NSString *insertSQL = [NSString stringWithFormat:@"INSERT INTO MZRegistration (Nametext, Emailtext, Phonetext, Companytext, IDtext) VALUES (\"%@\", \"%@\", \"%@\", \"%@\",\"%@\" )",_EnterName.text, _EnterEmail.text,_EnterPhone.text,_EnterCompany.text, _EnterId.text];
         const char *insert_stmt = [insertSQL UTF8String];
         sqlite3_prepare_v2(_contactDB, insert_stmt,-1, &statement, NULL);
         
