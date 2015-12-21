@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B1CF2431C2824AF0064D1DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF2421C2824AF0064D1DA /* main.m */; };
+		5B1CF2461C2824AF0064D1DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF2451C2824AF0064D1DA /* AppDelegate.m */; };
+		5B1CF2491C2824AF0064D1DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF2481C2824AF0064D1DA /* ViewController.m */; };
+		5B1CF24C1C2824AF0064D1DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CF24A1C2824AF0064D1DA /* Main.storyboard */; };
+		5B1CF24E1C2824AF0064D1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CF24D1C2824AF0064D1DA /* Assets.xcassets */; };
+		5B1CF2511C2824AF0064D1DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1CF24F1C2824AF0064D1DA /* LaunchScreen.storyboard */; };
+		5B1CF25C1C2824B00064D1DA /* MZEmailerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF25B1C2824B00064D1DA /* MZEmailerTests.m */; };
+		5B1CF2671C2824B00064D1DA /* MZEmailerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CF2661C2824B00064D1DA /* MZEmailerUITests.m */; };
+		5B1CF2751C28266B0064D1DA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1CF2741C28266B0064D1DA /* MessageUI.framework */; };
+		5B1CF2771C28267E0064D1DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1CF2761C28267E0064D1DA /* CoreGraphics.framework */; };
+		5B1CF2791C28268D0064D1DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1CF2781C28268D0064D1DA /* UIKit.framework */; };
+		5B1CF27B1C28269E0064D1DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1CF27A1C28269E0064D1DA /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B1CF2581C2824B00064D1DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B1CF2361C2824AF0064D1DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B1CF23D1C2824AF0064D1DA;
+			remoteInfo = MZEmailer;
+		};
+		5B1CF2631C2824B00064D1DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B1CF2361C2824AF0064D1DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B1CF23D1C2824AF0064D1DA;
+			remoteInfo = MZEmailer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B1CF23E1C2824AF0064D1DA /* MZEmailer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZEmailer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1CF2421C2824AF0064D1DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B1CF2441C2824AF0064D1DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B1CF2451C2824AF0064D1DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B1CF2471C2824AF0064D1DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B1CF2481C2824AF0064D1DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B1CF24B1C2824AF0064D1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B1CF24D1C2824AF0064D1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B1CF2501C2824AF0064D1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B1CF2521C2824AF0064D1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B1CF2571C2824B00064D1DA /* MZEmailerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZEmailerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1CF25B1C2824B00064D1DA /* MZEmailerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZEmailerTests.m; sourceTree = "<group>"; };
+		5B1CF25D1C2824B00064D1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B1CF2621C2824B00064D1DA /* MZEmailerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZEmailerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1CF2661C2824B00064D1DA /* MZEmailerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZEmailerUITests.m; sourceTree = "<group>"; };
+		5B1CF2681C2824B00064D1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B1CF2741C28266B0064D1DA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5B1CF2761C28267E0064D1DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B1CF2781C28268D0064D1DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B1CF27A1C28269E0064D1DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B1CF23B1C2824AF0064D1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1CF27B1C28269E0064D1DA /* Foundation.framework in Frameworks */,
+				5B1CF2791C28268D0064D1DA /* UIKit.framework in Frameworks */,
+				5B1CF2771C28267E0064D1DA /* CoreGraphics.framework in Frameworks */,
+				5B1CF2751C28266B0064D1DA /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1CF2541C2824B00064D1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1CF25F1C2824B00064D1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B1CF2351C2824AF0064D1DA = {
+			isa = PBXGroup;
+			children = (
+				5B1CF27A1C28269E0064D1DA /* Foundation.framework */,
+				5B1CF2781C28268D0064D1DA /* UIKit.framework */,
+				5B1CF2761C28267E0064D1DA /* CoreGraphics.framework */,
+				5B1CF2741C28266B0064D1DA /* MessageUI.framework */,
+				5B1CF2401C2824AF0064D1DA /* MZEmailer */,
+				5B1CF25A1C2824B00064D1DA /* MZEmailerTests */,
+				5B1CF2651C2824B00064D1DA /* MZEmailerUITests */,
+				5B1CF23F1C2824AF0064D1DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B1CF23F1C2824AF0064D1DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B1CF23E1C2824AF0064D1DA /* MZEmailer.app */,
+				5B1CF2571C2824B00064D1DA /* MZEmailerTests.xctest */,
+				5B1CF2621C2824B00064D1DA /* MZEmailerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B1CF2401C2824AF0064D1DA /* MZEmailer */ = {
+			isa = PBXGroup;
+			children = (
+				5B1CF2441C2824AF0064D1DA /* AppDelegate.h */,
+				5B1CF2451C2824AF0064D1DA /* AppDelegate.m */,
+				5B1CF2471C2824AF0064D1DA /* ViewController.h */,
+				5B1CF2481C2824AF0064D1DA /* ViewController.m */,
+				5B1CF24A1C2824AF0064D1DA /* Main.storyboard */,
+				5B1CF24D1C2824AF0064D1DA /* Assets.xcassets */,
+				5B1CF24F1C2824AF0064D1DA /* LaunchScreen.storyboard */,
+				5B1CF2521C2824AF0064D1DA /* Info.plist */,
+				5B1CF2411C2824AF0064D1DA /* Supporting Files */,
+			);
+			path = MZEmailer;
+			sourceTree = "<group>";
+		};
+		5B1CF2411C2824AF0064D1DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B1CF2421C2824AF0064D1DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B1CF25A1C2824B00064D1DA /* MZEmailerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B1CF25B1C2824B00064D1DA /* MZEmailerTests.m */,
+				5B1CF25D1C2824B00064D1DA /* Info.plist */,
+			);
+			path = MZEmailerTests;
+			sourceTree = "<group>";
+		};
+		5B1CF2651C2824B00064D1DA /* MZEmailerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B1CF2661C2824B00064D1DA /* MZEmailerUITests.m */,
+				5B1CF2681C2824B00064D1DA /* Info.plist */,
+			);
+			path = MZEmailerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B1CF23D1C2824AF0064D1DA /* MZEmailer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B1CF26B1C2824B00064D1DA /* Build configuration list for PBXNativeTarget "MZEmailer" */;
+			buildPhases = (
+				5B1CF23A1C2824AF0064D1DA /* Sources */,
+				5B1CF23B1C2824AF0064D1DA /* Frameworks */,
+				5B1CF23C1C2824AF0064D1DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZEmailer;
+			productName = MZEmailer;
+			productReference = 5B1CF23E1C2824AF0064D1DA /* MZEmailer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B1CF2561C2824B00064D1DA /* MZEmailerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B1CF26E1C2824B00064D1DA /* Build configuration list for PBXNativeTarget "MZEmailerTests" */;
+			buildPhases = (
+				5B1CF2531C2824B00064D1DA /* Sources */,
+				5B1CF2541C2824B00064D1DA /* Frameworks */,
+				5B1CF2551C2824B00064D1DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B1CF2591C2824B00064D1DA /* PBXTargetDependency */,
+			);
+			name = MZEmailerTests;
+			productName = MZEmailerTests;
+			productReference = 5B1CF2571C2824B00064D1DA /* MZEmailerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B1CF2611C2824B00064D1DA /* MZEmailerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B1CF2711C2824B00064D1DA /* Build configuration list for PBXNativeTarget "MZEmailerUITests" */;
+			buildPhases = (
+				5B1CF25E1C2824B00064D1DA /* Sources */,
+				5B1CF25F1C2824B00064D1DA /* Frameworks */,
+				5B1CF2601C2824B00064D1DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B1CF2641C2824B00064D1DA /* PBXTargetDependency */,
+			);
+			name = MZEmailerUITests;
+			productName = MZEmailerUITests;
+			productReference = 5B1CF2621C2824B00064D1DA /* MZEmailerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B1CF2361C2824AF0064D1DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Matin.Zhou;
+				TargetAttributes = {
+					5B1CF23D1C2824AF0064D1DA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					5B1CF2561C2824B00064D1DA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5B1CF23D1C2824AF0064D1DA;
+					};
+					5B1CF2611C2824B00064D1DA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5B1CF23D1C2824AF0064D1DA;
+					};
+				};
+			};
+			buildConfigurationList = 5B1CF2391C2824AF0064D1DA /* Build configuration list for PBXProject "MZEmailer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B1CF2351C2824AF0064D1DA;
+			productRefGroup = 5B1CF23F1C2824AF0064D1DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B1CF23D1C2824AF0064D1DA /* MZEmailer */,
+				5B1CF2561C2824B00064D1DA /* MZEmailerTests */,
+				5B1CF2611C2824B00064D1DA /* MZEmailerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B1CF23C1C2824AF0064D1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1CF2511C2824AF0064D1DA /* LaunchScreen.storyboard in Resources */,
+				5B1CF24E1C2824AF0064D1DA /* Assets.xcassets in Resources */,
+				5B1CF24C1C2824AF0064D1DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1CF2551C2824B00064D1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1CF2601C2824B00064D1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B1CF23A1C2824AF0064D1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1CF2491C2824AF0064D1DA /* ViewController.m in Sources */,
+				5B1CF2461C2824AF0064D1DA /* AppDelegate.m in Sources */,
+				5B1CF2431C2824AF0064D1DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1CF2531C2824B00064D1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1CF25C1C2824B00064D1DA /* MZEmailerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B1CF25E1C2824B00064D1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1CF2671C2824B00064D1DA /* MZEmailerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B1CF2591C2824B00064D1DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B1CF23D1C2824AF0064D1DA /* MZEmailer */;
+			targetProxy = 5B1CF2581C2824B00064D1DA /* PBXContainerItemProxy */;
+		};
+		5B1CF2641C2824B00064D1DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B1CF23D1C2824AF0064D1DA /* MZEmailer */;
+			targetProxy = 5B1CF2631C2824B00064D1DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B1CF24A1C2824AF0064D1DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B1CF24B1C2824AF0064D1DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B1CF24F1C2824AF0064D1DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B1CF2501C2824AF0064D1DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B1CF2691C2824B00064D1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B1CF26A1C2824B00064D1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B1CF26C1C2824B00064D1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MZEmailer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Matin.Zhou.MZEmailer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B1CF26D1C2824B00064D1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MZEmailer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Matin.Zhou.MZEmailer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B1CF26F1C2824B00064D1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MZEmailerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Matin.Zhou.MZEmailerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZEmailer.app/MZEmailer";
+			};
+			name = Debug;
+		};
+		5B1CF2701C2824B00064D1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MZEmailerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Matin.Zhou.MZEmailerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZEmailer.app/MZEmailer";
+			};
+			name = Release;
+		};
+		5B1CF2721C2824B00064D1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MZEmailerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Matin.Zhou.MZEmailerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MZEmailer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5B1CF2731C2824B00064D1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MZEmailerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Matin.Zhou.MZEmailerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MZEmailer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B1CF2391C2824AF0064D1DA /* Build configuration list for PBXProject "MZEmailer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1CF2691C2824B00064D1DA /* Debug */,
+				5B1CF26A1C2824B00064D1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B1CF26B1C2824B00064D1DA /* Build configuration list for PBXNativeTarget "MZEmailer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1CF26C1C2824B00064D1DA /* Debug */,
+				5B1CF26D1C2824B00064D1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B1CF26E1C2824B00064D1DA /* Build configuration list for PBXNativeTarget "MZEmailerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1CF26F1C2824B00064D1DA /* Debug */,
+				5B1CF2701C2824B00064D1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B1CF2711C2824B00064D1DA /* Build configuration list for PBXNativeTarget "MZEmailerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1CF2721C2824B00064D1DA /* Debug */,
+				5B1CF2731C2824B00064D1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B1CF2361C2824AF0064D1DA /* Project object */;
+}

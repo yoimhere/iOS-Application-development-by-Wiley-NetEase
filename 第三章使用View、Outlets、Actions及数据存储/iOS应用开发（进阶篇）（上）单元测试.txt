@@ -1,0 +1,81 @@
+iOS应用开发（进阶篇）（上）单元测试
+如果项目重构有问题，以下那个选项可以让你回滚整个项目？
+
+A.源代码编辑器帮助
+B.快照（Snapshot）
+C.重命名
+D.以上皆不是
+
+2单选(1分)
+以下哪个选项可以加快测试应用的速度？
+
+A.模拟器
+B.装置
+C.A和B
+D.取决于应用程序
+
+3单选(1分)
+_______是一种专门用表格来列举对象，用导航控制器过渡到对象详情页的应用程序
+
+A.Tabbed Application
+B.Master-Detail Application
+C.Utility Application
+D.OpenGL Game
+
+4单选(1分)
+以下哪个协议帮助UITableView从数据模型获取数据？
+
+A.UITableDataSource
+B.UITableViewDataSource
+C.UIViewDataSource
+D.UITableViewSource
+
+5单选(1分)
+要在UIActionSheet上让用户选择选项，需要
+
+A.在YDViewController的类扩展中添加UIActionSheetDelegate协议
+B.在YDViewController的类扩展中添加UIActionSheetDelegate协议，并且在 YDViewController里面实现actionSheet:clickedButtonAtIndex:这个协议方法
+C.在YDViewController的类扩展中添加UIActionSheetDelegate协议，并且在YDViewController里面实现actionSheet:clickedButton:这个协议方法
+D.在YDViewController里面实现actionSheet:clickedButtonAtIndex:协议方法
+
+6单选(1分)
+SQLite里面的数据规范化是____.
+
+A.移除重复的数据
+B.维护数据
+C.提高数据库的性能
+D.将数据分解，便于查询
+
+7单选(1分)
+在AppDelegate里面的_________方法配置MasterViewController里面的NavigationController的根视图控制器？
+
+A.didFinishLaunchingWithOptions:
+B.application:didFinishLaunchingWithOptions:
+C.application:didStartLaunchingWithOptions:
+D.application:didFinishLaunching:
+
+8单选(1分)
+SQLite库是有哪个语言编写的？
+
+A.C#
+B.C
+C..net
+D.php
+
+9单选(1分)
+Core Data是______.
+
+A.一个关系型数据库
+B.一个框架
+C.对象持久保存框架
+D.非对象持久保存框架
+
+10单选(1分)
+SQLite不支持SQL的哪个功能？
+
+A.FOR EACH ROW triggers
+B.LEFT OUTER JOIN
+C.RENAME TABLE
+D.FOR EACH STATEMENT triggers
+
+答案：BACBB DBBCD
