@@ -1,0 +1,120 @@
+iOS应用开发（进阶篇）（下）ADBCA ABDAD DAABB
+1单选(1分)
+APNS是什么的缩写？
+
+A.Apple Push Notification Service
+B.Apple Push Notification Standard
+C.Apple Pull Notification Service
+D.Apple Pull Notification Standard
+
+2单选(1分)
+下列哪项是通知对象不可获取的属性？
+
+A.Notification name
+B.Sending object
+C.UserInfo dictionary
+D.BasicUI.app
+
+3单选(1分)
+用于获取当前日期的事件的名称是？
+
+A.return [UIApplication sharedApplication]
+B.NSDate *pickerDate = [self.dPicker date];
+C.return [[ scheduledLocalNotifications] count];
+D.application:didRegisterForRemoteNotificationsWith DeviceToken:
+
+4单选(1分)
+以下哪种通知是能够被本设备上的其它应用唤起？
+
+A.Local
+B.Push
+C.External
+D.Pull
+
+5单选(1分)
+BOOL的头文件是？
+
+A.Objc.h
+B.Stdbool.h
+C.MacTypes.h
+D.Foundation.h
+
+6单选(1分)
+以下哪个选项可以给按钮添加动作？
+
+A.IBAction
+B.AppleAction
+C.Iaction
+D.Aaction
+
+7单选(1分)
+以下哪个类提供了编辑和发送电子邮件的标准接口？
+
+A.MFMailComposeEditController
+B.MFMailComposeViewController
+C.MFMailComposeController
+D.MailSendAndControl
+
+8单选(1分)
+以下哪个类是用来给用户展示警告信息的？
+
+A.UIAlert
+B.AlertView
+C.Alert
+D.UIAlertview
+
+9单选(1分)
+你会把短信收件人的手机号码存在哪里？
+
+A.NSArray
+B.NSString
+C.Tuple
+D.Both NSArray and NSString
+
+10单选(1分)
+拨打电话只需要用设备简单地打开一个URL链接。这个链接的开始是什么？
+
+A.telephone://
+B.phone://
+C.call://
+D.tel:// or telprompt://
+
+11单选(1分)
+以下哪个函数标示符可用来将Address Book数据库里面的数据创建一个新的Address Book对象？
+
+A.ABAddressBookCreate
+B.ABAddressBookCreateWithOptions
+C.ABAddressBookGetAuthorizationStatus
+D.选项A和选项B
+
+12单选(1分)
+哪个NSValue的子类可为一个类似于C的标量（数值）类型赋值？
+
+A.NSNumber
+B.NSComparison
+C.NSResult
+D.NSScaler
+
+13单选(1分)
+Address Book是用来添加____到数据库
+
+A.Contacts
+B.Mail
+C.Messages
+D.Checklist
+
+14单选(1分)
+当我们处理Address Book的时候，以下哪个函数使用记录ID返回源记录？
+
+A.ABAddressBookCopyArrayOfAllPeopleInSourceWithSortOrdering
+B.ABAddressBookGetSourceWithRecordID
+C.ABAddressBookRequestAccessWithCompletion
+D.ABAddressBookCopyArrayOfAllPeopleInSource
+
+15单选(1分)
+以下那个语法用来声明drawAtPoint:blendMode:alpha:函数？
+
+A.(void)drawAtPoint:(CGPoint)pointblendMode:(CGBlendMode)blendMode
+B.(void)drawAtPoint:(CGPoint)pointblendMode:(CGBlendMode)blendModealpha:(CGFloat)alpha
+C.(void)drawAtPoint:(CGPoint)pointalpha:(CGFloat)alpha
+D.(void)blendMode:(CGBlendMode)blendModealpha:(CGFloat)alpha

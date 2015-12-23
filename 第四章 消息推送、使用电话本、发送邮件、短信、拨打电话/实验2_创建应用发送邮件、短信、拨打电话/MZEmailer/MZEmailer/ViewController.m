@@ -106,4 +106,7 @@
     [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"tel:+8612345678"]];
 
 }
+
+
+
 @end
