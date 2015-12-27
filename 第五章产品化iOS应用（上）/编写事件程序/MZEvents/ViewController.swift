@@ -16,8 +16,8 @@ override func viewDidLoad() {
     super.viewDidLoad()
         
     let eventStore = EKEventStore()
-        
-    switch EKEventStore.authorizationStatusForEntityType(EKEntityType){
+    
+    switch EKEventStore.authorizationStatusForEntityType(EKEntityTypeEvent){
     
     case.Authorized:readEventsFromCalendar(eventStore)
             
@@ -54,8 +54,8 @@ override func viewDidLoad() {
     
     func readEventsFromCalendar(EventStore: EKEventStore){
             
-            letCalType = ["Local","Exchange","Birthday"]
-            letCalData = EventStore.calendarsForEntityType(EKEntityTypeEvent) as [EKCalendar]
+            let CalType = ["Local","Exchange","Birthday"]
+            let CalData = EventStore.calendarsForEntityType(EKEntityTypeEvent) as [EKCalendar]
     
             for cal in CalData{
     
@@ -76,14 +76,19 @@ override func viewDidLoad() {
         // Dispose of any resources that can be recreated.
     }
     
-    func sourceInEventStore(eventStore: EKEventStore, type: EKSourceType, title: String) ->EKSource?{
+    func sourceInEventStore(
+        eventStore: EKEventStore,
+        type: EKSourceType,
+        title: String) ->EKSource? {
     
         for source in eventStore.sources as [EKSource]{
     
-        if source.sourceType.value == type.value && source.title.caseInsensitiveCompare(title) == NSComparisonResult.OrderedSame{
+        if
+//            source.sourceType.value == type.value &&
+            source.title.caseInsensitiveCompare(title) == NSComparisonResult.OrderedSame{
         
             return source
-    }
+            }
         }
     
         return nil
@@ -108,7 +113,10 @@ override func viewDidLoad() {
         
         var error:NSError?
         // save event into the calendar
-        let EventSetResult = inEventStore.saveEvent(EventSet, span: EKSpanThisEvent, error: &error)
+        let EventSetResult = inEventStore.saveEvent(EventSet,
+            span: EKSpanThisEvent,
+            error: &error)
+        
         if EventSetResult == false
             {
                 if let CalError = error
@@ -121,7 +129,9 @@ override func viewDidLoad() {
     
     func insertEventIntoStore(store: EKEventStore){
     
-        let eventSource = sourceInEventStore(store, type: EKSourceTypeLocal, title: "MyEvent title")
+        let eventSource = sourceInEventStore(store,
+            type: EKSourceTypeLocal,
+            title: "MyEvent title")
     
             if eventSource == nil{
                 
@@ -130,7 +140,10 @@ override func viewDidLoad() {
                 return
             }
                     
-        let cal = calWithTitle("Calendar", type:EKCalendarTypeLocal, source: eventSource!, eventType: EKEntityTypeEvent)
+        let cal = calWithTitle("Calendar",
+            type:EKCalendarTypeLocal,
+            source: eventSource!,
+            eventType: EKEntityTypeEvent)
     
         if cal == nil{
         
@@ -145,7 +158,12 @@ override func viewDidLoad() {
         //event will end after 60 min, 60 sec
         let endDate = startDate.dateByAddingTimeInterval(0 * 60 * 60)
             
-        if AddEvent("MyEvent", startDate: startDate, endDate: endDate, inCalendar: cal!, inEventStore: store, notes: ""){
+        if AddEvent("MyEvent",
+            startDate: startDate,
+            endDate: endDate,
+            inCalendar: cal!,
+            inEventStore: store,
+            notes: ""){
     
         print("Event created Successfully.")
     
@@ -160,8 +178,9 @@ override func viewDidLoad() {
     
     func EventAlarm(store: EKEventStore, cal: EKCalendar){
     
-    // start alarm from now letendDate = startDate.dateByAddingTimeInterval(20.0)
+    // start alarm from now
         let startDate = NSDate(timeIntervalSinceNow: 60.0)
+        let endDate = startDate.dateByAddingTimeInterval(20.0)
         let EventAlarm = EKEvent(eventStore: store)
 
             EventAlarm.calendar = cal
@@ -176,7 +195,9 @@ override func viewDidLoad() {
         var error:NSError?
             
         //End Alarm 5 sec before event
-        if store.saveEvent(EventAlarm, span: EKSpanThisEvent, error: &error){
+        if store.saveEvent(EventAlarm,
+            span: EKSpanThisEvent,
+            error: &error){
         
             print("Event saved with alarm")
         
