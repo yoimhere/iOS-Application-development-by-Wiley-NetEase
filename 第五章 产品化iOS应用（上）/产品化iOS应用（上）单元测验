@@ -1,0 +1,83 @@
+产品化iOS应用（上）单元测验	
+
+答案：CDCAB CABBD
+
+1单选(1分)
+Event Kit UI框架中的哪个用户界面元素是用来创建或编辑已经存在的事件的？
+
+A.CreateEventViewController
+B.EditEventViewController
+C.EKEventViewController
+D.ManyEventViewController
+
+2单选(1分)
+哪个常量在EKEventStore类的authorizationStatusForEntityType:方法中没有返回？
+
+A.EKAuthorizationStatusNotDetermined
+B.EKAuthorizationStatusRestricted
+C.EKAuthorizationStatusDenied
+D.EKAuthorizationStatusUnauthorized
+
+3单选(1分)
+EKParticipant对象的哪个属性表示一个参与者是否是一个帐号的所有者？
+
+A.participantRole
+B.participantType
+C.isCurrentUser
+D.participantStatus
+
+4单选(1分)
+EKReminder类的哪个方法用来在日历中创建一个新的提醒？
+
+A.reminderWithEventStore:
+B.reminderWithCalendarEventStore:
+C.reminderEventStore:
+D.EventStoreReminder:
+
+5单选(1分)
+关于Event Kit框架，哪个说法是错的？
+
+A.它是用来读日历数据库
+B.它对日历数据库是只读的，不允许修改其中的数据
+C.它可以通知event store中某个修改已完成
+D.它可以读取日历数据库的数据，并能通过创建或编辑事件完成修改
+
+6单选(1分)
+通过哪个框架可以轻松访问Account数据库中帐号数据？
+
+A.Social framework
+B.Accounts framework
+C.Social Media framework
+D.UITableView framework
+
+7单选(1分)
+当你想向Facebook发布一条帖子时，需要把什么传递给SLRequest？
+
+A.Access token
+B.facebookUserID
+C.facebookAppIDC
+D.SLRequestHandler
+
+8单选(1分)
+使用哪个方法时会向Account数据库请求访问权限？
+
+A.Signin:
+B.facebookSignin:
+C.facebookAccess:
+D.facebookAccounts:
+
+9单选(1分)
+哪个方法通过指定名称和和特征集合来检测系统是否缓存有某个Image对象，并且在其存在时，返回该对象？
+
+A.imageWithContentsOfFile:
+B.imageNamed:inBundle:compatibleWithTraitCollection:
+C.imageWithCGImage:scale:orientation:
+D.imageWithCIImage:scale:orientation:
+
+10单选(1分)
+结束处理函数（completion handler）会返回哪种格式的响应数据，用来被序列化并分配给NSArray类型的tweets变量 ？
+
+A.xml
+B.html
+C..txt
+D.JSON

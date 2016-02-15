@@ -1,0 +1,212 @@
+产品化iOS应用（下）单元测验	  CDACC CCCAD ACACB 
+
+1单选(1分)
+在Redmine管理系统里面用到的svn的全称是什么？
+
+A.
+Super Version Network System for source code management
+
+B.
+Sub Version Network system for source code management
+
+C.
+Sub Version System for source code management
+
+D.
+Super Version Notifying system for source code management
+2单选(1分)
+对应用进行技术分析时，ARC没有实现的是？
+
+A.
+Objective-C对象的自动内存管理
+
+B.
+Objective-C块（blocks）的自动内存管理
+
+C.
+程序员不用写retain和release
+
+D.
+明确管理对象的生命期
+3单选(1分)
+当你从App Store下载一个应用，很多情况下，该应用会弹出对话框让你授权获取你的位置信息。以下哪个类会发出这个请求？
+
+A.
+CLLocationManager
+
+B.
+CCLocationManager
+
+C.
+LCLocationManager
+
+D.
+CLCLocationManager
+4单选(1分)
+一旦你的iOS应用程序在App Store上架，你想从中获利，下述哪个行为可以增加你的收入？
+
+A.
+电量使用分析
+
+B.
+用户界面分析
+
+C.
+商业分析
+
+D.
+网络使用分析
+5单选(1分)
+当一个对象的保留计数（retain count）变成0的时候，内存管理器（memory manager）知道没有人需要它了，就会给对象发______消息。
+
+A.
+realloc
+
+B.
+calloc
+
+C.
+dealloc
+
+D.
+release
+6单选(1分)
+Google为iOS提供了哪个广告平台？
+
+A.
+AdApp
+
+B.
+iAd
+
+C.
+ADMob
+
+D.
+iOSApp
+7单选(1分)
+在iAd的框架下，只在iPad上显示的全屏网页广告的类型是什么？
+
+A.
+Banner views
+
+B.
+Pop up views
+
+C.
+Full-screen advertisements
+
+D.
+Retargeting Ads
+8单选(1分)
+你的应用要支持iAds，你要在哪里进行配置？
+
+A.
+App Store Resource Center
+
+B.
+Dev Centers
+
+C.
+iTunes Connect
+
+D.
+Developer Support
+9单选(1分)
+哪个框架把广告从iAd网络下载下来，使你可以在应用的用户界面展示广告？
+
+A.
+iAd framework
+
+B.
+ADMob framework
+
+C.
+iOSad framework
+
+D.
+iOSadMob framework
+10单选(1分)
+应用的收入是依赖哪2个指标？
+
+A.
+广告印象和有效的产品
+
+B.
+点击和ADMob
+
+C.
+有效产品和ADMob
+
+D.
+广告印象和点击
+11单选(1分)
+在iOS应用开发里CSR的全名是？
+
+A.
+Certificate Signing Request
+
+B.
+Certificate Service Request
+
+C.
+Certificate Signing Response
+
+D.
+Certificate Signing Right
+12单选(1分)
+在iOS应用开发里面，一个开发者账号可以注册多少个机器？
+
+A.
+150
+
+B.
+50
+
+C.
+100
+
+D.
+1000
+13单选(1分)
+在iOS应用开发里面UDID的全名是？
+
+A.
+Unique Device Identifier
+
+B.
+Universal Device Identifier
+
+C.
+Unique Device Identity
+
+D.
+Universal Digit Identifier
+14单选(1分)
+iOS开发者成员中心（iOS Developer Member Center）里面的iTunes Connect链接是用来做什么的？
+
+A.
+创建开发者配置文件（developer provisioning profile）
+
+B.
+创建发布配置文件（distribution provisioning profile）
+
+C.
+提交和管理你的应用
+
+D.
+管理设备
+15单选(1分)
+哪个权限可以在iTunes Connect上启动或者接受一个应用的迁移？
+
+A.
+仅Developer
+
+B.
+仅Team Agents
+
+C.
+所有人
+
+D.
+不可能在iTunes Connect上面迁移应用

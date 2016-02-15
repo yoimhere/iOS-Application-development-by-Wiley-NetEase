@@ -1,0 +1,668 @@
+iOS应用开发期末考试客观题  
+
+本部分为本章单元测验，共45个选择题。你需要在1月17日24:00前提交试卷，方有成绩。每人最多只限提交一次，单次测验做题时长不限，请仔细作答，再提交前确认答案准确。
+
+BDDBD BBDAA DBADC BCAAA DBACA CDCDA CABDC BABCB DACDA
+
+1单选(1分)
+Apple在哪一年宣称给第三方开放SDK？
+
+A.
+2005
+
+B.
+2008
+
+C.
+2013
+
+D.
+2015
+2单选(1分)
+哪个框架提供了用于播放音视频文件的方法？
+
+A.
+MediaPlayer.framework
+
+B.
+MessageUI.framework
+
+C.
+MobileCoreServices.framework
+
+D.
+OpenAL.framework
+3单选(1分)
+哪个模拟器可以测试应用程序的加速器？
+
+A.
+iPhone 4S simulator
+
+B.
+iPad Mini simulator
+
+C.
+iPhone 6 Plus simulator
+
+D.
+不能在模拟器上测试加速器，因为模拟器不支持加速器
+4单选(1分)
+protocol的基本语法是什么？
+
+A.
+class ProtocolName {
+    func method1()
+    ...
+    }
+
+B.
+protocol ProtocolName {
+    func method1()
+    func method2()
+    ...
+    }
+
+C.
+ProtocolName protocol{
+    func method1()
+    func method2()
+    ...
+    }
+
+D.
+protocol ProtocolName: func method1{   }
+    , func method2()
+5单选(1分)
+哪个内建的方法是用来返回一个新的数组，它包含了一个带有原来元素的子集？
+
+A.
+filter()
+
+B.
+map()
+
+C.
+transform()
+
+D.
+merge()
+6单选(1分)
+Swift中默认访问级别是什么？
+
+A.
+Private access
+
+B.
+Public access
+
+C.
+Internal access
+
+D.
+External access
+7单选(1分)
+哪个方法可用来在一个数组的指定位置插入一个对象？
+
+A.
+InsertObject:atIndex;
+
+B.
+InsertObject:atIndex:
+
+C.
+ReplaceObjectAtIndex:
+
+D.
+RemoveObjectAtindex:
+8单选(1分)
+以下哪个选项不是Objective-C中的通用结构体？
+
+A.
+CGPoint
+
+B.
+CGSize
+
+C.
+CGRect
+
+D.
+CGPol
+9单选(1分)
+在Javascript中，block的概念是用于什么？
+
+A.
+CallBack
+
+B.
+Lambda Expression
+
+C.
+Package
+
+D.
+Class
+10单选(1分)
+哪个文件包含了app的配置数据？
+
+A.
+info.plist
+
+B.
+MyApp
+
+C.
+Main.storyboard
+
+D.
+iTunes Artwork
+11单选(1分)
+以下哪个不是Xcode的默认项目模板？
+
+A.
+Page-Based Application
+
+B.
+Tabbed Application
+
+C.
+OpenGL Game
+
+D.
+Single-Based Application
+12单选(1分)
+在Xcode的工作区中，黄色文件夹代表什么？
+
+A.
+Class
+
+B.
+Groups
+
+C.
+Objects
+
+D.
+Identifier
+13单选(1分)
+以下的代码会输出什么?
+var bus = (345 , ""ACcoach"", ""SeatOne"")
+println(bus.1)
+print(bus.0)
+println(bus.3)
+
+A.
+ACcoach
+345SeatOne
+
+B.
+345
+SeatOne
+Accoach
+
+C.
+ACcoach
+345
+SeatOne
+
+D.
+SeatOne
+ACcoach
+345
+14单选(1分)
+一个字符串如果按如下哪种方式赋值就会变成一个可变字符串？
+
+A.
+let mutable = String :Swift
+
+B.
+var mutable = Swift
+
+C.
+let mutable : "Swift"
+
+D.
+var mutable = "Swift"
+15单选(1分)
+如果数组是用let关键字声明的，你可以____？
+
+A.
+能够add新元素
+
+B.
+能够删除元素
+
+C.
+不允许增加或删除元素
+
+D.
+能够append新元素
+16单选(1分)
+在UIActionSheet类添加按钮的方法是什么？
+
+A.
+ButtonWithTitle
+
+B.
+addButtonWithTitle
+
+C.
+addButton
+
+D.
+addButtonTitle
+17单选(1分)
+在某个BarButtonItem上显示UIActionSheet的方法是什么？
+
+A.
+show-FromBarButtonItem
+
+B.
+show-BarButtonItem
+
+C.
+showFromTabBar
+
+D.
+showFromBarItem
+18单选(1分)
+在YDViewController.m中声明一个action的语法是什么？
+
+A.
+-(IBAction)simpleAlertWithEvent:(id)sender;
+
+B.
+-(IBAction)simpleAlertWithEvent:
+
+C.
+-simpleAlertWithEvent:(id)sender;
+
+D.
+以上都不是
+19单选(1分)
+ERD指的是什么？
+
+A.
+Entity-Relationship Diagrams
+
+B.
+Entry-Relationship Diagrams
+
+C.
+Entity-Related Diagrams
+
+D.
+Entity-Relationship Data
+20单选(1分)
+哪个是SQL的错误码？
+
+A.
+SQLITE_ERROR
+
+B.
+SQLITE_OPEN
+
+C.
+SQLITE_OK
+
+D.
+SQLITE_CLOSE
+21单选(1分)
+当你在设备上加载大量的数据时，用哪个数据库更好？
+
+A.
+SQL92
+
+B.
+SQLite
+
+C.
+Oracle
+
+D.
+Core Data
+22单选(1分)
+一个消息推送包含哪2个元素？
+
+A.
+Unique identifier and UIAlertView
+
+B.
+Device token and payload
+
+C.
+MobileCoreServices and MapKit
+
+D.
+Security and SystemConfiguration
+23单选(1分)
+应用自己安排推送到同一台机器的推送消息是什么推送类型？
+
+A.
+Local notifications
+
+B.
+Push notifications
+
+C.
+Userview notifications
+
+D.
+UINotifications
+24单选(1分)
+以下哪个函数用来取消全部推送？
+
+A.
+CancelNotifications
+
+B.
+StopNotification
+
+C.
+cancelLocalNotification
+
+D.
+InterruptNotification
+25单选(1分)
+开发者可以用UIApplication里面的openURL:方法并传入URL标示符来拨打电话。以下哪个拨打电话的语法是正确？
+
+A.
+NSString* phoneNumber = @"+15558888";
+[[UIApplicationsharedApplication] openURL:
+[NSURL URLWithString:[NSStringstringWithFormat:@"tel://%@",phoneNumber]]]];
+
+B.
+NSString* phoneNumber = @"+15558888";
+[[UIApplicationsharedApplication]
+[NSURL URLWithString:[NSStringstringWithFormat:@"tel://%@",phoneNumber]]]];
+
+C.
+NSString* phoneNumber = @"+15558888";
+[[UIApplicationsharedApplication] openURL:
+[NSURL URLWithString:[NSStringstringWithFormat:@"phone://%@",phoneNumber]]]];
+
+D.
+NSString* phoneNumber = "+15558888";
+[[UIApplicationsharedApplication] openURL:
+[NSURL URLWithString:[NSStringstringWithFormat:"tel://%@",phoneNumber]]]];
+26单选(1分)
+你会用哪个函数来发送电邮呢？
+
+A.
+sentEmail:
+
+B.
+Emailsend:
+
+C.
+sendEmail:
+
+D.
+Emailsent:
+27单选(1分)
+以下哪个framework包含发送电邮用户界面元素和基类？
+
+A.
+MailComposerViewController
+
+B.
+MFMailComposer
+
+C.
+ComposerViewController
+
+D.
+Message UI
+28单选(1分)
+哪个函数可以知道Address Book的改变没有保存到Address Book的数据库里面？
+
+A.
+ABAddressBookGetAuthorizationStatus
+
+B.
+ABCreateStringWithAddressDictionary
+
+C.
+ABAddressBookHasUnsavedChanges
+
+D.
+ABAddressBookRegisterExternalChangeCallback
+29单选(1分)
+用来注册一个回调函数来获取Address Book数据库的变更提醒的函数是？
+
+A.
+ABAddressBookGetAuthorizationStatus
+
+B.
+ABCreateStringWithAddressDictionary
+
+C.
+ABAddressBookHasUnsavedChanges
+
+D.
+ABAddressBookRegisterExternalChangeCallback
+30单选(1分)
+哪个函数返回Address Book里面的所有联系人记录，并且可以用特定的排序方式排序获取的记录列表？
+
+A.
+ABAddressBookCopyArrayOfAllPeopleInSourceWithSortOrdering
+
+B.
+ABCreateStringWithAddressDictionary
+
+C.
+ABAddressBookHasUnsavedChanges
+
+D.
+ABAddressBookRegisterExternalChangeCallback
+31单选(1分)
+在开发的时候，Calendar数据库是指？
+
+A.
+An event store
+
+
+B.
+A calendar store
+
+C.
+A calendar event
+
+D.
+An event calendar
+32单选(1分)
+系统里面，在哪里可以设置默认日历呢？
+
+A.
+设置 - 邮件、通讯录、日历
+
+B.
+设置 - 通讯录、日历
+
+C.
+设置 - 邮件、日历
+
+D.
+设置 - 日历
+33单选(1分)
+哪个方法可以创建一个结构化的geofence位置？
+
+A.
+locationStucture:
+
+B.
+locationWithTitle:
+
+C.
+locationTitle:
+
+D.
+locationWithName:
+34单选(1分)
+Accounts框架里面，调用哪个方法来弹出对话框让用户授权应用去获取他/她的Accounts数据库呢？
+
+A.
+requestAccessToAccountStore
+
+B.
+viewDidLoad
+
+C.
+ACAccountStoreDidChangeNotification
+
+D.
+AccountTypeWithAccountTypeIdentifier
+35单选(1分)
+哪个函数用来获取用户的Facebook wall？
+
+A.
+SLRequestGet:
+
+B.
+SLRequest:
+
+C.
+SLServiceTypeFacebook:
+
+D.
+SLRequestController:
+36单选(1分)
+以下哪个类可用来配置一个帖子属性，然后发送到推特和Facebook？
+
+A.
+performRequestWithHandler:
+
+B.
+SLComposeSheetConfigurationItem:
+
+C.
+SLRequestController:
+
+D.
+SLRequestGet:
+37单选(1分)
+以下哪个不是iTunes组件不是应用必需的？
+
+A.
+iTunes组织你的存储内容的组合
+
+B.
+iTunes组织法律和税务相关的文档
+
+C.
+iTunes组织联系信息
+
+D.
+iTunes组织应用价格
+38单选(1分)
+如果你不想你的应用可以在后台运行，你需要在info.plist文件里面配置一个键（key）来让iOS终止你的应用。这个键（key）是什么呢？
+
+A.
+UIApplicationExitsOnTerminate
+
+B.
+UIApplicationExitsOnSuspend
+
+C.
+UIApplicationExit
+
+D.
+UIApplicationSuspendOnExit
+39单选(1分)
+在Member Center的哪个地方可以让你点击Sales and Trends链接来看或者下载你的销售数据？
+
+A.
+App Store Resource Center
+
+B.
+Dev Centers
+
+C.
+iTunes Connect
+
+D.
+Developer Support
+40单选(1分)
+哪个对象可用来在Apple App Store上面获取一个本地化（localized）IAP产品信息列表？
+
+A.
+SKDownload
+
+B.
+SKProductsRequest
+
+C.
+SKPayment
+
+D.
+SKPaymentTransaction
+41单选(1分)
+由谷歌提供的并且支持iOS应用的广告平台是？
+
+A.
+iOSad
+
+B.
+iOSadMob
+
+C.
+iAd
+
+D.
+ADMob
+42单选(1分)
+最便捷地从URL获取内容的方法是什么？
+
+A.
+NSURLConnection
+
+B.
+UIApplicationExitsOnSuspend
+
+C.
+sendAsynchronousRequest
+
+D.
+NSURLConnectionDataDelegate
+43单选(1分)
+哪个Xcode的模板可以创建一个拥有2个视图（views）的应用，并且提供底部标签栏（tab bar）用来切换这2个视图（views）？
+
+A.
+Page-Based Application
+
+B.
+Single View Application
+
+C.
+Tabbed Application
+
+D.
+Utility Application
+44单选(1分)
+band对象的哪个属性是用来给乐队评分（范围从1到10）？
+
+A.
+Touring Status
+
+B.
+Have Seen
+
+C.
+Notes
+
+D.
+Rating
+45单选(1分)
+ViewController类的ViewDidLoad方法有什么作用？
+
+A.
+实现UITextFieldDelegate
+
+B.
+初始化bandObject
+
+C.
+在UIView上添加UILabel
+
+D.
+在UIView上添加UITextField
